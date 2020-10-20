@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8894201953851282084
-    second: Buttons_0
+    second: Play Button
   - first:
       213: 7664807735657788756
     second: Buttons_1
@@ -13,7 +13,7 @@ TextureImporter:
     second: Buttons_2
   - first:
       213: 2013261503205373015
-    second: Buttons_3
+    second: Balls Button
   - first:
       213: 3760674464881954987
     second: Buttons_4
@@ -28,7 +28,7 @@ TextureImporter:
     second: Buttons_7
   - first:
       213: -5316896731886317114
-    second: Buttons_8
+    second: Back Button
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +114,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buttons_0
+      name: Play Button
       rect:
         serializedVersion: 2
         x: 5
@@ -122,7 +122,7 @@ TextureImporter:
         width: 429
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,7 +143,7 @@ TextureImporter:
         width: 437
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,7 +164,7 @@ TextureImporter:
         width: 116
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,7 +177,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_3
+      name: Balls Button
       rect:
         serializedVersion: 2
         x: 5
@@ -185,7 +185,7 @@ TextureImporter:
         width: 429
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,7 +206,7 @@ TextureImporter:
         width: 116
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,7 +227,7 @@ TextureImporter:
         width: 425
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,7 +248,7 @@ TextureImporter:
         width: 438
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,7 +269,7 @@ TextureImporter:
         width: 424
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -282,7 +282,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buttons_8
+      name: Back Button
       rect:
         serializedVersion: 2
         x: 448
@@ -290,7 +290,7 @@ TextureImporter:
         width: 427
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
