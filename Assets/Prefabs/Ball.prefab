@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2391448679879060495}
   - component: {fileID: 2391448679879060592}
   m_Layer: 0
-  m_Name: Balls 1
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2391448679879060593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.13477063, y: -0.08086264, z: 0}
-  m_LocalScale: {x: 0.43, y: 0.43, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 8219566699378199167, guid: 81e1f074456b75145b7b412a8fe87dff,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
