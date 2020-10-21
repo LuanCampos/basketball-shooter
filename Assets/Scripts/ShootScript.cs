@@ -41,7 +41,19 @@ public class ShootScript : MonoBehaviour
 		
 		if (hitGround)
 		{
-			Debug.Log("Bola caiu no chão...");
+			life -= Time.deltaTime;
+			Color c = GetComponent<Renderer>().material.GetColor("_Color");
+			GetComponent<Renderer>().material.SetColor("_Color", new Color(c.r, c.g, c.g, life));
+			
+			if (life <= 0)
+			{
+				if (GameManager.instance != null)
+				{
+					GameManager.instance.CreateBall();
+				}
+				
+				Destroy(gameObject);
+			}
 		}
 	}
 	
@@ -158,9 +170,9 @@ public class ShootScript : MonoBehaviour
 		}
 	}
 	
-	void OnTriggerEnter2D(Collider2D target)
+	void OnCollisionEnter2D(Collision2D target)
 	{
-		if (target.tag == "Ground")
+		if (target.gameObject.tag == "Ground")
 		{
 			hitGround = true;
 		}
